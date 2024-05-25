@@ -152,7 +152,7 @@ export default function TasksTable({
                 <td className="px-3 py-2">{task.id}</td>
                 <td className="px-3 py-2">
                   <img src={task.image_path} style={{ width: 60 }} />
-                </td>
+                 </td>
                 {!hideProjectColumn && (
                   <td className="px-3 py-2">{task.project.name}</td>
                 )}
